@@ -216,7 +216,7 @@ export function DataTable<TData, TValue>({
           </TableBody>
         </Table>
 
-        <div className="flex justify-between items-center space-x-2 py-4 pl-2">
+        <div className="flex justify-between items-center space-x-2 py-4 px-4">
           <div className="flex-1 text-sm text-muted-foreground">
             {table.getFilteredSelectedRowModel().rows.length} of{' '}
             {table.getFilteredRowModel().rows.length} row(s) selected.
